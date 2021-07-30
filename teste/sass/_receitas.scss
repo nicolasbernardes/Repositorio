@@ -1,0 +1,46 @@
+main{
+
+    .main__grid{
+        padding-top: 19rem;
+        padding-bottom: 75rem;
+        display: grid;
+        grid-template-areas: 
+        "foto foto foto  info info passo passo"
+        "foto foto foto  info info passo passo"
+        "foto foto foto  info info passo passo"
+        "foto foto foto  info info passo passo"
+        "foto foto foto  info info passo passo"
+        "foto foto foto  info info passo passo"
+        "foto foto foto  info info passo passo"
+        "foto foto foto  info info passo passo"
+        "foto foto foto  info info passo passo"
+        ;
+        
+        grid-template-rows: 7rem 3rem 3rem;
+        grid-template-columns: 22rem 4rem 4rem;
+        height: 75vh;
+
+    }
+
+
+    
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
