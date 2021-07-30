@@ -1,0 +1,70 @@
+.footer{
+    
+	background-color:  $colorfondo;
+	padding-top: 6.25rem; /* 100 */
+	padding-bottom: 18.75rem; /* 300 */
+	display: flex;
+	justify-content: space-between;
+
+    .footer__info{
+        font-size: 1.875rem; /* 30 */
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-decoration: white;
+        padding-bottom: 6.25rem; /* 100 */
+        
+
+
+    }
+
+
+
+    img{
+
+        width:12.5rem; /* 200 */
+        
+    }
+
+    .footer__instagram{
+        background: $colorfondo;
+
+	width: 12.5rem; /* 200 */
+	height: 12.5rem; /* 200 */
+	transform: translate(-10px, -60px); /* -10 -60 */
+
+
+
+    }
+
+    .footer__twitter{
+        background-color: $colorfondo;
+        transform: translateY(-60px); 
+    }
+
+}
+
+
+
+@media screen and (max-width:768px){
+    .footer{
+
+        display: flex;
+        flex-direction: row;
+
+
+
+        img{
+            width: 150px;
+
+        }
+
+
+        .footer__cookpad{
+            padding-right: 55px;
+
+        }
+        
+    }
+
+    
+
+}

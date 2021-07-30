@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+
+
+
+
+<body>
+                <!-- formulario -->
+    <form action="" method="" enctype="text/plain">
+                <!-- dar nome para formulario -->
+        <fieldset>
+            <legend>llenar formulario</legend>
+        
+
+
+            <!--nome  -->
+            <label for="name">Nombre:</label>
+            <input id="name" type="text" name="name" required>
+            <br>
+                <!-- email -->
+            <label for="email">Email:</label>
+            <input id="email"  type="email" name="email" required>
+            <br>
+                <!-- senha -->
+            <label for="pass">senha</label>
+            <input id="pass"  type="password" name="pass" required>
+            <br>
+                    <!-- area de texto -->
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+            <textarea name="" id="" cols="30" rows="10" disabled> texto ficho que nao pode apagar</textarea>
+            <br>
+                        <!-- Calendario -->
+            <label for="calendar">Calendario</label>
+            <input id="calendar" type="date" name="calendar">
+            <br>
+
+          <!--radio escolher sim ou nao  -->
+               <label> Esta de acuerdo?</label>
+               <input type="radio" name="radio-igual" value="acepto"> Si
+               <input type="radio" name="radio-igual" value="no acepto"> No
+
+               <br>
+     
+                            <!-- butao -->
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Borrar">
+            <br>
+
+            <!-- checkbox escolher 2 -->
+
+            <label for="check-1"> Acepta términos y condiciones</label>
+            <input id="check-1" type="checkbox" name="acepta" value="1" required>
+            <label for="check-2">Quiere recebir publicaciones?</label>
+            <input id="check-2" type="checkbox" name="no-acepta" value="2">  
+            <br>
+            <!-- select -->
+
+            <label for="paises"> Selecione un País</label>
+            <select name="paises" id="paises"required>
+             <option value="sel">Selecione...</option>   
+            <option value="ARG">Argentina</option>
+            <option value="CHI" >Chile</option>
+            <option value="URU">Uruguay</option>
+            <option value="BRA">Brasil</option>
+            </select>
+
+
+            
+        
+
+        </fieldset>
+    </form>
+
+
+
+
+
+
+
+
+
+
+    
+</body>
+</html>

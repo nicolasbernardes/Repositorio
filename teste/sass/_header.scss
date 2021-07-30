@@ -1,0 +1,170 @@
+header{
+    background-color: $colorfondo;
+    height: 9.3rem;
+    background-image: linear-gradient(to left,rgb(50, 50, 138) ,#3691bb, #00ecec);
+   
+    
+    
+    
+        .header__logo{
+            img{
+                float: right;
+                width: 11rem; /* 120 */
+                height: auto;
+                padding: 0 0 0 2.1875rem; /* 35 */
+            }
+    
+    
+        }
+    
+    
+    
+        .header__nav{
+            padding-top: 3.125rem;  /* 50 */
+            ul{
+                display: flex;
+                justify-content: center;
+        
+                li{
+                    text-decoration: none;
+                    margin-right: 1.25rem;  /* 20 */
+                    border: 2px solid;
+                    border-color: black;
+                    border-radius: 0.375rem; /* 6 */
+                    padding: 0.3125rem;  /* 5 */
+                    font-size: 1.1875em;  /* 19 */  
+                }
+                
+            }
+            
+        }
+    
+    
+
+        .header__img{
+
+            background-image: url(../teste/imagens/banner.jpg);
+            background-size: 12.5rem;   /* 200 */
+            background-position: center top;
+            background-repeat:repeat;
+            height: 18.75rem;  /* 300 */
+            margin-top: -10px;
+            
+            
+   
+        }
+  
+       
+}    
+
+
+
+
+
+  
+@media screen and (max-width:768px) {
+    body{
+        width: 768px;
+
+
+    }
+
+
+
+  .header__logo{
+     
+     height: auto;
+     width: auto;
+     
+
+  }
+
+
+
+
+ 
+
+   
+   
+    
+    
+
+   .header__nav{
+       display: flex;
+       padding-left: 70px;
+       margin-bottom: -35px;
+       
+       
+       
+        ul{
+            width: 80vh;
+            
+            font-size: 13px;
+            
+            
+              
+
+        }
+
+   }
+
+
+
+   
+  
+}
+
+
+
+
+
+@media screen and (max-width:1024px){
+
+    body{
+        width: 990px;
+
+
+    }
+
+
+
+  .header__logo{
+     
+     height: auto;
+     width: auto;
+     
+
+  }
+
+
+
+
+ 
+
+   
+   
+    
+    
+
+   .header__nav{
+       display: flex;
+       padding-left: 250px;
+       margin-bottom: -35px;
+       
+       
+       
+        ul{
+            width: 80vh;
+            
+            font-size: 13px;
+            
+            
+              
+
+        }
+
+   }
+
+
+
+}

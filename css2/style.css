@@ -1,0 +1,805 @@
+/* inicio */
+
+.header{ background-color: #17FFFF;
+height: 9.3rem;  /* 150px */ /* 150/16 igual 9.3 */
+background-image: linear-gradient(to left,rgb(50, 50, 138) ,#3691bb, #00ecec);
+
+}
+
+.hearder_background{
+
+background-image: url(../imagens/banner.jpg.jpg);
+background-size: 12.5rem;   /* 200 */
+background-position: center top;
+background-repeat:repeat;
+height: 18.75rem;  /* 300 */
+margin-top: 83px;
+
+}
+
+
+
+
+.header_logo img{
+float: left;
+width: 7.5rem; /* 120 */
+height: auto;
+padding: 0 0 0 2.1875rem; /* 35 */
+
+}
+
+
+
+
+
+.header_menu{
+padding-top: 3.125rem;  /* 50 */
+
+
+
+}
+
+.header_menu ul{
+display: flex;
+justify-content: center;
+
+
+
+
+}
+
+.header_menu ul li a{
+text-decoration: none;
+margin-right: 1.25rem;  /* 20 */
+border: 2px solid;
+border-color: black;
+border-radius: 0.375rem; /* 6 */
+padding: 0.3125rem;  /* 5 */
+font-size: 1.1875em;  /* 19 */
+
+
+
+}
+
+
+#intro{
+margin-top: 18.75rem; /* 300 */
+background-color: rgb(27, 197, 240);
+height: 1.875rem; /* 30 */
+
+
+
+}
+
+
+#intro .intro_titulo{
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-style: italic;
+font-weight: normal;
+font-size:  1.875rem; /* 30 */
+text-align: center;
+line-height: normal;
+}
+
+
+
+/* Termina header */
+.main{
+
+	border: 2px solid;
+	border-radius: 6px;
+	
+	
+	
+	
+	}
+	
+	.galeria1{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	background-color: #17ffff;  
+	width: 100%;
+	height:18.75rem; /* 300 */
+	margin: auto;
+		
+	}
+	
+	
+	
+	
+	
+	
+	.foto1{
+	
+	background-image: url(../imagens/BUDÍN\ DE\ CHOCOLATE\ Y\ PERA.webp);
+	height: 13.4375rem;  /* 215 */
+	width: 18.75rem; /* 300 */
+	background-repeat: no-repeat;
+	background-size: 100%;
+	margin: 1.25rem 1.25rem 1.25rem 5rem ; /* 20 20 20 80 */
+	justify-content: center;
+	align-items: center;
+	font-size: 1px; 
+	transition-property: all;  /* transicion */
+	transition-delay: 1s;
+	transition-duration: .5s;
+
+	}
+	
+	
+	.div1{
+	
+	background-color: black;
+	 }
+	
+	
+	
+	.foto1:hover{
+	color: white;
+	font-size: 1.5rem; /* 24 */
+	text-align: center;
+	opacity: 1;
+	text-decoration: none;
+	width: 500px;       /* transicion */
+	height: 300px;	
+	border-radius: 50%;
+	transform: rotate(180deg);
+	}
+	
+	
+	
+	
+	
+	.foto2{
+	
+	background-image: url(../imagens/GALLETAS\ O\ BIZCOCHITOS\ DE\ ZANAHORIA.webp);
+	height: 13.4375rem;  /* 215 */
+	width: 18.75rem; /* 300 */
+	background-repeat: no-repeat;
+	background-size: 100%;
+	margin: 1.25rem 1.25rem 1.25rem 5rem  ;
+	justify-content: center;
+	align-items: center;
+	font-size: 1px;
+	
+	transition-property: all;  /* transicion */
+	transition-delay: 1s;
+	transition-duration: .5s;
+	
+	}
+	
+	.div2{
+	
+	background-color: black;
+	 }
+	
+	
+	.foto2:hover{
+	color: white;
+	font-size: 1.5rem; /* 24 */
+	text-align: center;
+	opacity: 1;
+	text-decoration: none;
+
+	width: 500px;       /* transicion */
+	height: 300px;	
+	border-radius: 50%;
+	transform: rotate(180deg);
+		
+	}
+	
+	.foto3{
+	
+	
+	background-image: url(../imagens/BRIGADEIROS.webp);    
+	height: 215px;
+	width: 300px;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	margin: 1.25rem 1.25rem 1.25rem 5rem  ;
+	justify-content: center;
+	align-items: center;
+	font-size: 1px;
+	
+	transition-property: all;  /* transicion */
+	transition-delay: 1s;
+	transition-duration: .5s;
+	}
+	
+	
+	.foto3:hover{
+	color: white;
+	font-size: 1.5rem; /* 24 */
+	text-align: center;
+	opacity: 1;
+	text-decoration: none;
+
+	width: 500px;       /* transicion */
+	height: 300px;	
+	border-radius: 50%;
+	transform: rotate(180deg);
+		
+	}
+	
+	
+	.div3{
+	
+	background-color: black;
+	 }
+	
+	.galeria2{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	background-color: #17ffff; 
+	width: 100%;
+	height:18.75rem; /* 300 */
+	margin: auto;
+		
+	
+	}
+	
+	.foto4{
+	background-image: url(../imagens/ENSALADA\ CAPRESE.webp);
+	height: 13.4375rem; /* 215 */
+	width: 18.75rem; /* 300 */
+	background-repeat: no-repeat;
+	background-size: 100%;
+	margin:1.25rem 1.25rem 1.25rem 5rem  ;
+	justify-content: center;
+	align-items: center;
+	font-size: 1px;
+	}
+	
+	
+	.div4{
+	
+	background-color: black;
+	 }
+	
+	.foto4:hover{
+	color: white;
+	font-size:1.5rem;/* 24 */
+	text-align: center;
+	opacity: 1;
+	text-decoration: none;
+		
+		
+	}
+	
+	.foto5{
+	background-image: url(../imagens/BOMBAS\ O\ PROFITEROLES\ rellenos\ de\ dulce\ de\ leche.webp);
+	height: 13.4375rem; /* 215 */
+	width: 18.75rem; /* 300 */
+	background-repeat: no-repeat;
+	background-size: 100%;
+	margin:1.25rem 1.25rem 1.25rem 5rem  ;
+	justify-content: center;
+	align-items: center;
+	font-size: 1px;
+	}
+	
+	
+	.div5{
+	
+	background-color: black;
+	 }
+	
+	.foto5:hover{
+	color: white;
+	font-size:1.5rem;/* 24 */
+	text-align: center;
+	opacity: 1;
+	text-decoration: none;
+		
+		
+	}
+	
+	
+	.foto6{
+	background-image: url(../imagens/MILANESAS\ DE\ CARNE\ PICADA.webp);
+	height: 13.4375rem; /* 215 */
+	width: 18.75rem; /* 300 */
+	background-repeat: no-repeat;
+	background-size: 100%;
+	margin:1.25rem 1.25rem 1.25rem 5rem  ;
+	justify-content: center;
+	align-items: center;
+	font-size: 1px;
+	}
+	
+	
+	
+	.div6{
+	
+	background-color: black;
+	 }
+	
+	.foto6:hover{
+	color: white;
+	font-size:1.5rem;/* 24 */
+	text-align: center;
+	opacity: 1;
+	text-decoration: none;
+		
+	}
+	
+	
+	
+	.galeria3{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	background-color: #17ffff; 
+	width: 100%;
+	height:18.75rem; /* 300 */
+	margin: auto;
+	}    
+	
+	
+	
+	.foto7{
+	background-image: url(../imagens/BUDÍN\ DE\ CHOCOLATE\ RELLENO\ DE\ DULCE\ DE\ LECHE.webp);
+	height: 13.4375rem; /* 215 */
+	width: 18.75rem; /* 300 */
+	background-repeat: no-repeat;
+	background-size: 100%;
+	margin:1.25rem 1.25rem 1.25rem 5rem  ;
+	justify-content: center;
+	align-items: center;
+	font-size: 1px;
+	}
+	
+	
+	.div7{
+	
+	background-color: black;
+	 }
+	
+	.foto7:hover{
+	color: white;
+	font-size:1.5rem;/* 24 */
+	text-align: center;
+	opacity: 1;
+	text-decoration: none;
+		
+		
+	}
+	
+	
+	.foto8{
+	
+	background-image: url(../imagens/EMPANADAS\ DE\ CARNE\ PICADA\ BIEN\ JUGOSAS\ con\ masa\ casera.webp);
+	height: 13.4375rem; /* 215 */
+	width: 18.75rem; /* 300 */
+	background-repeat: no-repeat;
+	background-size: 100%;
+	margin:1.25rem 1.25rem 1.25rem 5rem  ;
+	justify-content: center;
+	align-items: center;
+	font-size: 1px;
+	}
+	
+	
+	
+	.div8{
+	
+	background-color: black;
+	 }
+	
+	.foto8:hover{
+	color: white;
+	font-size:1.5rem;/* 24 */
+	text-align: center;
+	opacity: 1;
+	text-decoration: none;
+		
+		
+	}
+	
+	
+	
+	.foto9{
+	background-image: url(../imagens/CAZUELA\ DE\ LENTEJAS.webp);
+	height: 13.4375rem; /* 215 */
+	width: 18.75rem; /* 300 */
+	background-repeat: no-repeat;
+	background-size: 100%;
+	margin:1.25rem 1.25rem 1.25rem 5rem  ;
+	justify-content: center;
+	align-items: center;
+	font-size: 1px;
+	
+	}
+	
+	
+	
+	.div9{
+	
+	background-color: black;
+	 }
+
+	
+	.foto9:hover{
+	color: white;
+	font-size:1.5rem;/* 24 */
+	text-align: center;
+	opacity: 1;
+	text-decoration: none;
+		
+		
+	}
+	
+	
+	.galeria4{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	width: 100%;
+	height:18.75rem; /* 300 */
+	margin: auto;
+	background-color: #17ffff; 
+	
+	}
+	
+	
+	.foto10{
+	background-image: url(../imagens/TORTA\ CRUMBLE\ DE\ MEMBRILLO.webp);
+	height: 13.4375rem; /* 215 */
+	width: 18.75rem; /* 300 */
+	background-repeat: no-repeat;
+	background-size: 100%;
+	margin:1.25rem 1.25rem 1.25rem 5rem  ;
+	justify-content: center;
+	align-items: center;
+	font-size: 1px;
+	
+	}
+	
+	
+	.div10{
+	
+	background-color: black;
+	 }
+
+	
+	.foto10:hover{
+	color: white;
+	font-size:1.5rem;/* 24 */
+	text-align: center;
+	opacity: 1;
+	text-decoration: none;
+		
+		
+	}
+	
+	.foto11{
+	background-image: url(../imagens/ARENADO\ PARA\ TORTA\ CRUMBLE.webp);
+	height: 13.4375rem; /* 215 */
+	width: 18.75rem; /* 300 */
+	background-repeat: no-repeat;
+	background-size: 100%;
+	margin:1.25rem 1.25rem 1.25rem 5rem  ;
+	justify-content: center;
+	align-items: center;
+	font-size: 1px;
+	
+	
+	}
+	
+	
+	
+	
+	.div11{
+	
+	background-color: black;
+	 }
+	
+	
+	.foto11:hover{
+	color: white;
+	font-size:1.5rem;/* 24 */
+	text-align: center;
+	opacity: 1;
+	text-decoration: none;
+		
+		
+	}
+	
+	
+	.foto12{
+	background-image: url(../imagens/ALFAJORES\ DE\ CHOCOLATE\ sin\ manteca.webp);
+	height: 13.4375rem; /* 215 */
+	width: 18.75rem; /* 300 */
+	background-repeat: no-repeat;
+	background-size: 100%;
+	margin:1.25rem 1.25rem 1.25rem 5rem  ;
+	justify-content: center;
+	align-items: center;
+	font-size: 1px;
+	
+	
+	}
+	
+	.div12{
+	
+		background-color: black;
+	 }
+	
+	
+	
+	.foto12:hover{
+		color: white;
+		font-size:1.5rem;/* 24 */
+		text-align: center;
+		opacity: 1;
+		text-decoration: none;
+		
+		
+	}
+	
+	.galeria5{
+		display: flex;
+		flex-direction: row;
+		flex-wrap: nowrap;
+		justify-content: space-around;
+		width: 100%;
+		height:18.75rem; /* 300 */
+		margin: auto;
+	   background-color: #17ffff; 
+	}
+	
+	
+	
+	.foto13{
+	background-image: url(../imagens/SCONES\ DE\ QUESO\ \ sin\ manteca.webp);
+	height: 13.4375rem; /* 215 */
+	width: 18.75rem; /* 300 */
+	background-repeat: no-repeat;
+	background-size: 100%;
+	margin:1.25rem 1.25rem 1.25rem 5rem  ;
+	justify-content: center;
+	align-items: center;
+	font-size: 1px;
+	}
+	
+	.div13{
+	
+		background-color: black;
+	 }
+	
+	
+	
+	
+	.foto13:hover{
+		color: white;
+		font-size:1.5rem;/* 24 */
+		text-align: center;
+		opacity: 1;
+		text-decoration: none;
+		
+		
+	}
+	
+	
+	.foto14{
+	background-image: url(../imagens/GALLETITAS\ DE\ AVENA.webp);
+	height: 13.4375rem; /* 215 */
+	width: 18.75rem; /* 300 */
+	background-repeat: no-repeat;
+	background-size: 100%;
+	margin:1.25rem 1.25rem 1.25rem 5rem  ;
+	justify-content: center;
+	align-items: center;
+	font-size: 1px;
+	
+	
+	}
+	
+	
+	
+	.div14{
+	
+		background-color: black;
+	 }
+	
+	
+	.foto14:hover{
+		color: white;
+		font-size:1.5rem;/* 24 */
+		text-align: center;
+		opacity: 1;
+		text-decoration: none; 
+		
+		
+	}
+	
+	
+	.foto15{
+	background-image: url(../imagens/TORTA\ SECA\ O\ TORTA\ ALEMANA\ DE\ MANZANAS.webp);
+	height: 13.4375rem; /* 215 */
+	width: 18.75rem; /* 300 */
+	background-repeat: no-repeat;
+	background-size: 100%;
+	margin:1.25rem 1.25rem 1.25rem 5rem  ;
+	justify-content: center;
+	align-items: center;
+	font-size: 1px;
+	
+	
+	
+	}
+	
+	.div15{
+	
+		background-color: black;
+	 }
+	
+	
+	.foto15:hover{
+		color: white;
+		font-size:1.5rem;/* 24 */
+		text-align: center;
+		opacity: 1;
+		text-decoration: none;
+		
+		
+	}
+
+
+
+
+
+
+/* Termina main */
+
+
+
+.footer{ 
+
+	background-color: #17FFFF;
+	padding-top: 6.25rem; /* 100 */
+	padding-bottom: 18.75rem; /* 300 */
+	display: flex;
+	justify-content: space-between;
+}
+
+
+
+
+.footer .info{
+font-size: 1.875rem; /* 30 */
+font-family: Georgia, 'Times New Roman', Times, serif;
+text-decoration: white;
+padding-bottom: 6.25rem; /* 100 */
+
+}
+
+.footer img{
+
+width:12.5rem; /* 200 */
+
+
+
+
+}
+
+
+
+
+
+.instagram img{
+	background: #17FFFF;
+
+	width: 12.5rem; /* 200 */
+	height: 12.5rem; /* 200 */
+	transform: translate(-10px, -60px); /* -10 -60 */
+
+}
+
+
+
+.twitter{
+background-color: #17FFFF;
+transform: translateY(-60px); 
+
+
+}
+
+
+
+
+
+
+/* termina footer */
+
+
+
+
+/* Budín de chocolate y pera */
+
+
+
+
+
+
+/* pastas con grid */
+
+
+
+.container{
+
+	width: 37.7rem; /* 600 */
+	margin: 0 auto;
+	border: 1px solid black;
+	padding: 0.625rem; /* 10 */
+	
+
+
+}
+
+
+
+.grid{
+
+
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: 200px 200px 200px; /* espacio de cada columns vertical */
+	grid-gap: 0.625rem; /* 10 */
+	grid-template-areas: initial;
+
+
+
+}
+
+
+
+.grid img{
+
+	width: 100%;
+
+
+}
+
+
+
+.grid .nueve{
+
+grid-row: 5 /5;
+
+
+
+}
+
+
+
+.Ingredientes{
+
+color: red;
+
+
+
+}
+
+.raciones{
+
+color: red;
+	
+
+
+
+
+}
+
+
+/* grid area */
+
+
+
+  
